@@ -1,4 +1,4 @@
-/*all*/
+
 *{
 margin: 0;
 padding: 0;
@@ -7,8 +7,8 @@ font-size: 1.5625vw;
 font-family: "Microsoft Yahei";
 }
 html,body{
-  width: 100%;
 height: 100%;
+overflow: hidden;
 }
 /*music*/
 .music{
@@ -87,7 +87,7 @@ background-size: 100%;
 }
 #page1 > .p1_lantern{
 position: absolute;
-top: -3.4%;
+top: -1.4%;
 right: 0;
 left: 0;
 margin: auto;
@@ -138,7 +138,7 @@ border-radius: 50%;
 #page1 > .p1_imooc{
 position: absolute;
    right: 0;
-bottom: 7vh;
+bottom: 11vh;
 left: 0;
 background:  url("../png/p1_imooc.png") no-repeat center center;
 background-size: 100%;
@@ -163,15 +163,15 @@ color: #231815;
   -webkit-transition: .5s;
           transition: .5s;
 }
-/* #page2.fadeOut{
+ #page2.fadeOut{
   opacity: .3;
-  -webkit-transform: translate(0,100%);
-          transform: translate(0,100%);
+  -webkit-transform: translate(0,-100%);
+          transform: translate(0,-100%);
 }
 #page2 > .p2_bg_loading{
-  z-index: 4;background: #ef1639;
+  background: #ef1639;
   -webkit-animation: p2_bg_loading 1s linear forwards;
-  animation: p2_bg_loading 1s linear forwards; */
+  animation: p2_bg_loading 1s linear forwards; 
 }
 @-webkit-keyframe p2_bg_loading{
   0%{opacity: 1;}
@@ -303,7 +303,7 @@ animation: p2_circle_inner 1s linear 1s infinite;
   width: 27.5vw;
   height: 6.24vh;
 }
-/* #page2 > .p2_2016 {
+ #page2 > .p2_2016 {
 -webkit-animation: p2_2016 4s linear infinite;
 -o-animation: p2_2016 4s linear infinite;
 animation: p2_2016 4s linear infinite;
@@ -327,14 +327,21 @@ animation: p2_2016 4s linear infinite;
 -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
 }
-} */
+} 
 /*page3*/
 #page3{
   display:none;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+#page3.fadeIn{
+  -webkit-transform: translate(0,-100%);
+          transform: translate(0,-100%);
 }
 #page3>.bg{
 background:url("../png/p3_bg.jpg") no-repeat center center;
 background-size: 100%;
+z-index: 4;
 }
 #page3>.p3_logo{
 width: 34.6875vw;
@@ -343,6 +350,7 @@ position: absolute;
 top: 7.82vh;
 right: 0;
 left: 0;
+z-index: 4;
 margin: auto;
 background: url("../png/p3_logo.png") no-repeat center center;
 background-size:100%;
@@ -355,6 +363,7 @@ background-size:100%;
   right: 0;
   left: 0;
   margin: auto;
+  z-index: 4;
   background: url("../png/p3_title.png") no-repeat center center;
   background-size: 100%;
 }
@@ -364,6 +373,7 @@ background-size:100%;
   position: absolute;
   top: 25.48vh;
   left:3.75vw;
+  z-index: 4;
   background: url("../png/p3_couplet_second.png") no-repeat center center;
   background-size: 100%;
 }
@@ -373,6 +383,7 @@ height: 41.652vh;
 position: absolute;
 top: 25.48vh;
 right: 3.75vw;
+z-index: 4;
 background: url("../png/p3_couplet_first.png") no-repeat center center;
 background-size: 100%;
 }
@@ -385,6 +396,7 @@ bottom:10vh;
 left: 0;
 margin: auto;
 border-radius: 50%;
+z-index: 4;
 background: url("../png/p3_blessing.png") no-repeat center center;
 background-size:100%;
 }
