@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	background:url("../jpg/pic1.jpg") ;
+	background:url("../jpg/pic1.jpg");
 }
 header{
 	position: fixed;
@@ -20,6 +20,13 @@ ul{
     width: 70%
 }
 .bufen1{
+	padding: 5px;
+	border-radius:5%;
 	background-color: rgb(200,200,200);
 	height: 10%;
+}
+.bufen2{
+	margin: 5px;
+	border-radius: 5%;
+	background-color: rgb(180,200,220);
 }

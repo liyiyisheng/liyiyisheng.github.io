@@ -1,0 +1,19 @@
+body{
+	background-color: rgb(232,236,246);
+}
+h1{
+	text-align: center;
+}
+ol{
+	width: 70%;
+	margin: auto;
+	font-size: 20px;
+}
+li{
+  margin-top:2px;
+  padding: 10px;
+  line-height:28px;
+  background-color: rgb(225,217,178); 
+  border-radius: 5%
+}
+li:hover{transition: all 1s ease-in;transform: scale(1.2,1.2); background-color: rgb(255,206,67);}
