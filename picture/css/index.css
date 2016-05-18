@@ -61,12 +61,13 @@ transform: translate(-120px,0);
 	position: absolute; right: 15%; bottom: 15%;}
 
 .test6{background: rgb(74,124,75);}
-.test6 figcaption h2{margin-top: 5%; margin-left: 7%; transform: scale(1.2,1.2); opacity: 0;}
-.test6 figcaption p{margin-top:3%; margin-left: 7%; transform: scale(1.2,1.2); opacity: 0;}
-.test6 figcaption{width: 100%; height: 100%}
+.test6 figcaption h2{margin-top: 10%; margin-left: 10%; transform: scale(1.2,1.2); opacity: 0;}
+.test6 figcaption p{margin-top:3%; margin-left: 10%; transform: scale(1.2,1.2); opacity: 0;}
+.test6 figcaption{width: 100%; height: 100%; padding: 0;}
 .test6 figcaption div{ border: 2px solid rgb(2255,225,225) ;width: 80%; height: 80%;
-position: absolute;top: 5%;left:5%; transform: scale(1.2,1.2); opacity: 0;}
+position: absolute;top: 10%;left:10%; transform: scale(1.2,1.2); opacity: 0;}
+.test6 img{ width: 100%;height: 100%; }
 .test6:hover figcaption div{transform: scale(1,1); opacity: 1;}
-.test6:hover img{ transform: scale(1.2,1.2); }
+.test6:hover img{ transform: scale(1.2,1.2);}
 .test6:hover figcaption h2{transform: scale(1,1); opacity: 1;}
 .test6:hover  figcaption p{transform: scale(1,1); opacity: 1;}
