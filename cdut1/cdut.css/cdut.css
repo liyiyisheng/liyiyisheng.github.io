@@ -1,5 +1,6 @@
 *{ margin: 0; padding: 0; text-decoration: none;}
-body{ background:url(img/cdut3.jpg); z-index: -2; }
+html {min-width: 1120px}
+body{ background:url(img/cdut3.jpg); z-index: -2;min-width: 1120px }
 .top{height: 30px;background-color: rgb(241,241,241);}
 .top2{float:right;margin-right: 200px;margin-top:8px;font-size: 8px;font}
 .top2 a{padding-left: 15px;border-right:1px solid rgb(78,78,78);text-decoration: none;padding-right: 7px;color: rgb(69,74,87)}

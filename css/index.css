@@ -1,7 +1,8 @@
 body{
 	margin: 0;
-	background:url("../jpg/pic1.jpg");
+	background:url("../jpg/pic1.jpg"); min-width: 1120px;
 }
+html{ min-width: 1120px; }
 header{
 	position: fixed;
 	top: 0;
@@ -14,7 +15,7 @@ header{
     font-size: 2vh;
 }
 header > h1{ margin: 0; }
-header > h3{ position: absolute; right: 5%; }
+header > h3{ position: absolute; right: 5%; bottom: 1%; }
 header > h3 > a{ margin-left: 3px; }
 
 ul{
